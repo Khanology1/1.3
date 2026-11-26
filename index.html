@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>9th (PCTB) Mathematics Guide – Exercise 1.3 | Students Paradise School & Academy</title>
+  <meta name="description" content="Complete step-by-step handwritten solutions for 9th Class (PCTB) Mathematics Exercise 1.3 by M. Wajeeh Ullah Khan. Instant WhatsApp delivery for just Rs. 99." />
+  <meta property="og:title" content="9th (PCTB) Mathematics Guide – Exercise 1.3 (Rs. 99 Only)" />
+  <meta property="og:description" content="Clear, exam-ready step-by-step solutions for all 9 questions of Exercise 1.3 (12-page PDF Guide). Order on WhatsApp and get it within 30 minutes." />
+  <meta property="og:image" content="./sample-page-01.png" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue-deep: #071329;
+      --blue-dark: #0d2147;
+      --blue-mid: #1d4ed8;
+      --blue-bright: #3b82f6;
+      --red-deep: #991b1b;
+      --red-main: #e11d48;
+      --red-bright: #ff2e55;
+      --surface-glass: rgba(15, 31, 66, 0.72);
+      --border-glass: rgba(255, 255, 255, 0.14);
+      --text-main: #f8fafc;
+      --text-muted: #cbd5e1;
+      --whatsapp: #25d366;
+      --whatsapp-dark: #16a34a;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+      background-color: var(--blue-deep);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    body {
+      overflow-x: hidden;
+      width: 100%;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    /* Animated Liquid Blobs Background */
+    .liquid-bg {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      overflow: hidden;
+      background: radial-gradient(circle at 15% 15%, #132c5e 0%, #071329 55%, #040b18 100%);
+      pointer-events: none;
+    }
+
+    .blob {
+      position: absolute;
+      filter: blur(70px);
+      opacity: 0.55;
+      will-change: transform, border-radius;
+      animation: liquidMorph 14s ease-in-out infinite alternate;
+    }
+
+    .blob-blue {
+      width: 480px;
+      height: 480px;
+      top: -100px;
+      left: -120px;
+      background: linear-gradient(135deg, #2563eb, #06b6d4);
+    }
+
+    .blob-red {
+      width: 440px;
+      height: 440px;
+      top: 22%;
+      right: -130px;
+      background: linear-gradient(135deg, #e11d48, #f43f5e);
+      animation-delay: -5s;
+      animation-duration: 16s;
+    }
+
+    .blob-mix {
+      width: 520px;
+      height: 520px;
+      bottom: -140px;
+      left: 25%;
+      background: linear-gradient(135deg, #1d4ed8, #be123c);
+      animation-delay: -9s;
+      animation-duration: 18s;
+    }
+
+    @keyframes liquidMorph {
+      0% {
+        border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+        transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+      }
+      50% {
+        border-radius: 68% 32% 40% 60% / 58% 64% 36% 42%;
+        transform: translate3d(35px, -25px, 0) scale(1.08) rotate(12deg);
+      }
+      100% {
+        border-radius: 34% 66% 52% 48% / 38% 42% 58% 62%;
+        transform: translate3d(-25px, 30px, 0) scale(0.95) rotate(-10deg);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .blob, .liquid-btn::before, .float-book, .pulse-badge {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 18px;
+    }
+
+    /* Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background: rgba(7, 19, 41, 0.82);
+      border-bottom: 1px solid var(--border-glass);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+
+    .brand-dot {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--red-main), var(--blue-bright));
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      font-size: 16px;
+      box-shadow: 0 0 18px rgba(225, 29, 72, 0.5);
+      flex-shrink: 0;
+    }
+
+    .brand-title {
+      font-weight: 800;
+      font-size: 0.95rem;
+      line-height: 1.2;
+    }
+
+    .brand-sub {
+      display: block;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Liquid Animated CTA Buttons */
+    .liquid-btn {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 26px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      background: linear-gradient(120deg, var(--red-main), #c81e45, var(--blue-mid));
+      background-size: 200% 200%;
+      animation: gradientFlow 5s ease infinite;
+      box-shadow: 0 10px 28px rgba(225, 29, 72, 0.42), 0 0 0 1px rgba(255, 255, 255, 0.16) inset;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .liquid-btn:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 14px 34px rgba(59, 130, 246, 0.48), 0 0 0 1px rgba(255, 255, 255, 0.28) inset;
+    }
+
+    .liquid-btn-wa {
+      background: linear-gradient(120deg, #16a34a, #25d366, #0d9488);
+      background-size: 200% 200%;
+      box-shadow: 0 10px 28px rgba(37, 211, 102, 0.35);
+    }
+
+    .nav-cta {
+      padding: 9px 16px;
+      font-size: 0.84rem;
+      white-space: nowrap;
+    }
+
+    @keyframes gradientFlow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      padding: 44px 0 64px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    @media (min-width: 880px) {
+      .hero-grid {
+        grid-template-columns: 1.15fr 0.85fr;
+        padding: 20px 0;
+      }
+    }
+
+    .pill-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, rgba(225, 29, 72, 0.24), rgba(59, 130, 246, 0.24));
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fda4af;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.14;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, #ff4d6d, #60a5fa);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero-lead {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      max-width: 58ch;
+    }
+
+    .price-strip {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      padding: 14px 20px;
+      border-radius: 18px;
+      background: var(--surface-glass);
+      border: 1px solid var(--border-glass);
+      backdrop-filter: blur(12px);
+      margin-bottom: 24px;
+    }
+
+    .price-now {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+    }
+
+    .price-tag {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 5px 11px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--red-main), var(--blue-mid));
+      color: #fff;
+      animation: pulseBadge 2.4s infinite;
+    }
+
+    @keyframes pulseBadge {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .secondary-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 13px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-main);
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .secondary-btn:hover {
+      background: rgba(59, 130, 246, 0.22);
+      transform: translateY(-2px);
+    }
+
+    /* Book Showcase Card */
+    .book-stage {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .liquid-ring {
+      position: absolute;
+      width: 310px;
+      height: 310px;
+      background: linear-gradient(135deg, var(--red-main), var(--blue-bright));
+      filter: blur(28px);
+      opacity: 0.55;
+      border-radius: 45% 55% 62% 38% / 53% 44% 56% 47%;
+      animation: liquidMorph 10s ease-in-out infinite alternate;
+      z-index: 0;
+    }
+
+    .book-card {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 330px;
+      border-radius: 22px;
+      padding: 12px;
+      background: linear-gradient(145deg, rgba(225, 29, 72, 0.35), rgba(29, 78, 216, 0.35));
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 24px 50px rgba(0, 0, 0, 0.55);
+      animation: floatBook 5s ease-in-out infinite;
+    }
+
+    @keyframes floatBook {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .book-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 14px;
+      object-fit: cover;
+    }
+
+    .book-caption {
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 10px;
+      font-weight: 600;
+    }
+
+    /* Liquid Wave Divider */
+    .wave-divider {
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    .wave-divider svg {
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 46px;
+    }
+
+    /* Sections */
+    section {
+      padding: 56px 0;
+    }
+
+    .section-head {
+      text-align: center;
+      max-width: 680px;
+      margin: 0 auto 36px;
+    }
+
+    .section-kicker {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #60a5fa;
+      margin-bottom: 8px;
+    }
+
+    .section-head h2 {
+      font-size: clamp(1.6rem, 3.6vw, 2.3rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .section-head p {
+      color: var(--text-muted);
+      font-size: 0.98rem;
+    }
+
+    /* Cards Grid */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    @media (min-width: 768px) {
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .glass-card {
+      background: var(--surface-glass);
+      border: 1px solid var(--border-glass);
+      border-radius: 20px;
+      padding: 24px;
+      backdrop-filter: blur(12px);
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .glass-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(244, 63, 94, 0.55);
+    }
+
+    .icon-box {
+      width: 46px;
+      height: 46px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      font-size: 1.35rem;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, rgba(225, 29, 72, 0.3), rgba(59, 130, 246, 0.3));
+      border: 1px solid rgba(255, 255, 255, 0.16);
+    }
+
+    .glass-card h3 {
+      font-size: 1.12rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .glass-card p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+    }
+
+    /* Syllabus / Questions Covered */
+    .q-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+      .q-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .q-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 16px 18px;
+      border-radius: 16px;
+      background: rgba(11, 25, 54, 0.78);
+      border: 1px solid var(--border-glass);
+    }
+
+    .q-num {
+      flex-shrink: 0;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--red-main), var(--blue-mid));
+      color: #fff;
+    }
+
+    .q-text {
+      font-size: 0.92rem;
+      color: var(--text-main);
+    }
+
+    /* Interactive 2-Page Sample Reader */
+    .reader-shell {
+      max-width: 760px;
+      margin: 0 auto;
+      background: rgba(9, 20, 44, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 24px;
+      padding: 20px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+    }
+
+    .reader-topbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding-bottom: 14px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border-glass);
+    }
+
+    .reader-status {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #93c5fd;
+    }
+
+    .reader-tabs {
+      display: flex;
+      gap: 8px;
+    }
+
+    .tab-btn {
+      padding: 7px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border-glass);
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-main);
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, var(--red-main), var(--blue-mid));
+      border-color: transparent;
+    }
+
+    .reader-viewport {
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #fff;
+      min-height: 360px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .reader-viewport img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .lock-screen {
+      display: none;
+      width: 100%;
+      padding: 40px 22px;
+      text-align: center;
+      color: var(--text-main);
+      background: radial-gradient(circle at top right, rgba(225, 29, 72, 0.35), transparent 55%),
+                  radial-gradient(circle at bottom left, rgba(29, 78, 216, 0.45), #081530 70%);
+    }
+
+    .lock-screen.visible {
+      display: block;
+    }
+
+    .lock-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 16px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 1.8rem;
+      background: linear-gradient(135deg, var(--red-main), var(--blue-mid));
+      box-shadow: 0 10px 25px rgba(225, 29, 72, 0.45);
+    }
+
+    .lock-screen h3 {
+      font-size: 1.45rem;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .lock-screen p {
+      color: var(--text-muted);
+      max-width: 46ch;
+      margin: 0 auto 20px;
+      font-size: 0.95rem;
+    }
+
+    .reader-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .nav-page-btn {
+      padding: 10px 18px;
+      border-radius: 12px;
+      border: 1px solid var(--border-glass);
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.88rem;
+      cursor: pointer;
+    }
+
+    .nav-page-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* Payment & Delivery Section */
+    .checkout-box {
+      max-width: 820px;
+      margin: 0 auto;
+      border-radius: 26px;
+      padding: 32px 24px;
+      background: linear-gradient(145deg, rgba(225, 29, 72, 0.18), rgba(15, 31, 66, 0.88) 45%, rgba(29, 78, 216, 0.25));
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      text-align: center;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+    }
+
+    .pay-badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 22px 0;
+    }
+
+    .pay-badge {
+      padding: 9px 16px;
+      border-radius: 12px;
+      font-size: 0.86rem;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #fff;
+    }
+
+    .delivery-note {
+      background: rgba(7, 19, 41, 0.72);
+      border: 1px dashed rgba(96, 165, 250, 0.5);
+      border-radius: 14px;
+      padding: 14px 18px;
+      font-size: 0.92rem;
+      color: #e2e8f0;
+      max-width: 600px;
+      margin: 0 auto 24px;
+    }
+
+    .wa-number-display {
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    /* FAQ */
+    .faq-list {
+      max-width: 760px;
+      margin: 0 auto;
+      display: grid;
+      gap: 12px;
+    }
+
+    details {
+      background: var(--surface-glass);
+      border: 1px solid var(--border-glass);
+      border-radius: 16px;
+      padding: 16px 20px;
+    }
+
+    summary {
+      font-weight: 700;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      font-size: 1.3rem;
+      color: #fb7185;
+      font-weight: 800;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      margin-top: 10px;
+      color: var(--text-muted);
+      font-size: 0.92rem;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-glass);
+      padding: 32px 0 92px;
+      background: rgba(4, 11, 24, 0.85);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .policy-note {
+      max-width: 680px;
+      margin: 0 auto 14px;
+      font-size: 0.82rem;
+      color: #94a3b8;
+    }
+
+    /* Sticky WhatsApp Floating Button */
+    .sticky-wa {
+      position: fixed;
+      bottom: 18px;
+      right: 18px;
+      z-index: 60;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 13px 20px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #16a34a, #25d366);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.9rem;
+      text-decoration: none;
+      box-shadow: 0 12px 30px rgba(22, 163, 74, 0.45);
+      transition: transform 0.2s ease;
+    }
+
+    .sticky-wa:hover {
+      transform: translateY(-3px) scale(1.03);
+    }
+
+    /* Scroll reveal */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.in-view {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Liquid Animated Background -->
+  <div class="liquid-bg" aria-hidden="true">
+    <div class="blob blob-blue"></div>
+    <div class="blob blob-red"></div>
+    <div class="blob blob-mix"></div>
+  </div>
+
+  <!-- Sticky Header -->
+  <header>
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <span class="brand-dot">∑</span>
+        <span>
+          <span class="brand-title">Students Paradise</span>
+          <span class="brand-sub">School &amp; Academy • PCTB Notes</span>
+        </span>
+      </a>
+      <a class="liquid-btn nav-cta" href="https://wa.me/923134665483?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20the%209th%20(PCTB)%20Mathematics%20Guide%20%E2%80%93%20Exercise%201.3%20(PDF)%20for%20Rs.%2099." target="_blank" rel="noopener">
+        Order on WhatsApp • Rs. 99
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="pill-badge">9th Class Punjab Textbook Board (PCTB) • 12-Page Digital PDF</span>
+          <h1>Master <span class="gradient-text">Exercise 1.3</span> With Clear Step-by-Step Solutions</h1>
+          <p class="hero-lead">
+            Written by <strong>M. Wajeeh Ullah Khan</strong> (Students Paradise School &amp; Academy). Every single question from Q.1 to Q.9 is solved neatly line-by-line so 9th-grade students can understand concepts fast and score full marks in board exams.
+          </p>
+
+          <div class="price-strip">
+            <div>
+              <div style="font-size: 0.78rem; color: #93c5fd; font-weight: 700; text-transform: uppercase;">Student Offer Price</div>
+              <div class="price-now">Rs. 99 <span style="font-size: 0.95rem; font-weight: 600; color: #cbd5e1;">PKR</span></div>
+            </div>
+            <span class="price-tag">Instant PDF Guide • All 9 Questions</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="liquid-btn liquid-btn-wa" href="https://wa.me/923134665483?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20the%209th%20(PCTB)%20Mathematics%20Guide%20%E2%80%93%20Exercise%201.3%20(PDF)%20for%20Rs.%2099." target="_blank" rel="noopener">
+              <span>Buy Now on WhatsApp (Rs. 99)</span>
+            </a>
+            <a class="secondary-btn" href="#sample-reader">Read 2 Free Sample Pages</a>
+          </div>
+          <div class="wa-number-display">WhatsApp Support &amp; Orders: <strong>0313-4665483</strong></div>
+        </div>
+
+        <div class="book-stage">
+          <div class="liquid-ring" aria-hidden="true"></div>
+          <div class="book-card">
+            <img src="./sample-page-01.png" alt="9th (PCTB) Mathematics Guide Cover by M. Wajeeh Ullah Khan" />
+            <div class="book-caption">Official Guide Cover • Author: M. Wajeeh Ullah Khan</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Liquid SVG Wave Divider -->
+    <div class="wave-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="rgba(29, 78, 216, 0.16)"></path>
+      </svg>
+    </div>
+
+    <!-- Why Students Love This Guide -->
+    <section class="reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Why This Guide Helps</span>
+          <h2>Stop Getting Stuck on Word Problems &amp; Radicals</h2>
+          <p>Designed specifically for 9th Class PCTB students who want clean, teacher-verified solutions without skipped steps.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="glass-card">
+            <div class="icon-box">✍️</div>
+            <h3>Zero Skipped Steps</h3>
+            <p>From cross-multiplication and denominator rationalization to prime factorization, every intermediate step is written clearly.</p>
+          </div>
+          <div class="glass-card">
+            <div class="icon-box">📐</div>
+            <h3>Board-Exam Presentation</h3>
+            <p>Includes "Given", "Formula", step-by-step substitution, and highlighted final answers just as examiners expect.</p>
+          </div>
+          <div class="glass-card">
+            <div class="icon-box">📱</div>
+            <h3>Study Anywhere on Mobile</h3>
+            <p>High-clarity 12-page PDF formatted cleanly for smartphones, tablets, or printing for daily revision.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exact Contents Covered -->
+    <section class="reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Complete Exercise 1.3 Coverage</span>
+          <h2>All 9 Questions Solved Inside (12 Pages)</h2>
+          <p>Every question from PCTB 9th Mathematics Exercise 1.3 is solved completely:</p>
+        </div>
+
+        <div class="q-list">
+          <div class="q-item"><span class="q-num">Q.1</span><div class="q-text">Finding three consecutive integers whose sum is 42.</div></div>
+          <div class="q-item"><span class="q-num">Q.2</span><div class="q-text">Finding triangle height AB using area and radical rationalization.</div></div>
+          <div class="q-item"><span class="q-num">Q.3</span><div class="q-text">Expressing the area of a rectangle in the form <em>a + b√2</em>.</div></div>
+          <div class="q-item"><span class="q-num">Q.4</span><div class="q-text">Simultaneous linear equations: two numbers with sum 68 and difference 22.</div></div>
+          <div class="q-item"><span class="q-num">Q.5</span><div class="q-text">Converting Lahore's 48°C summer temperature into Fahrenheit (°F).</div></div>
+          <div class="q-item"><span class="q-num">Q.6</span><div class="q-text">Age word problem: father and son ages six years ago.</div></div>
+          <div class="q-item"><span class="q-num">Q.7</span><div class="q-text">Calculating Mirha's profit percentage on Rs. 1500 cost price.</div></div>
+          <div class="q-item"><span class="q-num">Q.8</span><div class="q-text">Income tax calculation on Rs. 9,60,000 with Rs. 1,30,000 exemption at 0.75%.</div></div>
+          <div class="q-item"><span class="q-num">Q.9</span><div class="q-text">Compound markup on Rs. 3,75,000 for 1 year at 14% compounded annually.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Authorized 2-Page Free Sample Reader -->
+    <section id="sample-reader" class="reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Free 2-Page Preview</span>
+          <h2>Inspect the Handwriting &amp; Solution Clarity First</h2>
+          <p>Browse the authorized 2 sample pages below before ordering the full 12-page PDF guide.</p>
+        </div>
+
+        <div class="reader-shell">
+          <div class="reader-topbar">
+            <div class="reader-status" id="readerStatus">Viewing Sample Page 1 of 2 (Title Cover)</div>
+            <div class="reader-tabs">
+              <button type="button" class="tab-btn active" data-step="0">Page 1</button>
+              <button type="button" class="tab-btn" data-step="1">Page 2</button>
+              <button type="button" class="tab-btn" data-step="2">Pages 3–12 🔒</button>
+            </div>
+          </div>
+
+          <div class="reader-viewport">
+            <img id="sampleImg" src="./sample-page-01.png" alt="Sample Page 1 of 9th PCTB Mathematics Guide" />
+            <div class="lock-screen" id="lockScreen">
+              <div class="lock-icon">🔒</div>
+              <h3>Unlock All 12 Pages (Q.1 to Q.9 Complete)</h3>
+              <p>You have reached the end of the 2 free sample pages. Get the complete 12-page PDF guide with all 9 solved questions delivered directly to your WhatsApp for just <strong>Rs. 99</strong>.</p>
+              <a class="liquid-btn liquid-btn-wa" href="https://wa.me/923134665483?text=Assalam-o-Alaikum!%20I%20checked%20the%202%20sample%20pages%20and%20want%20to%20buy%20the%20full%209th%20(PCTB)%20Mathematics%20Guide%20%E2%80%93%20Exercise%201.3%20(PDF)%20for%20Rs.%2099." target="_blank" rel="noopener">
+                Unlock Full PDF on WhatsApp • Rs. 99
+              </a>
+            </div>
+          </div>
+
+          <div class="reader-controls">
+            <button type="button" class="nav-page-btn" id="prevBtn" disabled>← Previous Page</button>
+            <button type="button" class="nav-page-btn" id="nextBtn">Next Sample Page →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Checkout & Delivery -->
+    <section id="order" class="reveal">
+      <div class="container">
+        <div class="checkout-box">
+          <span class="pill-badge">Direct WhatsApp Order • Fast Delivery</span>
+          <h2 style="font-size: clamp(1.7rem, 4vw, 2.4rem); font-weight: 800; margin-bottom: 10px;">
+            Get Your Copy Today for <span class="gradient-text">Rs. 99 Only</span>
+          </h2>
+          <p style="color: var(--text-muted); max-width: 54ch; margin: 0 auto;">
+            Click the WhatsApp button below to message us directly. Ask for our payment details, send your payment screenshot, and receive the complete 12-page PDF file.
+          </p>
+
+          <div class="pay-badges" aria-label="Supported Payment Methods">
+            <span class="pay-badge">💚 Easypaisa</span>
+            <span class="pay-badge">❤️ JazzCash</span>
+            <span class="pay-badge">💙 SadaPay</span>
+            <span class="pay-badge">🏦 Bank Transfer</span>
+          </div>
+
+          <div class="delivery-note">
+            <strong>Delivery Guarantee:</strong> After successful payment verification, your product will be delivered through WhatsApp within 30 minutes.
+          </div>
+
+          <a class="liquid-btn liquid-btn-wa" href="https://wa.me/923134665483?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20the%209th%20(PCTB)%20Mathematics%20Guide%20%E2%80%93%20Exercise%201.3%20(PDF)%20for%20Rs.%2099.%20Please%20share%20payment%20details." target="_blank" rel="noopener">
+            Order Now on WhatsApp • Rs. 99
+          </a>
+          <div class="wa-number-display">WhatsApp Number: <strong>0313-4665483</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">Questions &amp; Answers</span>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Which board and class is this guide made for?</summary>
+            <p>This guide is prepared specifically for 9th Class Punjab Textbook Board (PCTB) Mathematics, covering all 9 questions of Exercise 1.3.</p>
+          </details>
+          <details>
+            <summary>How will I receive the guide after paying Rs. 99?</summary>
+            <p>After successful payment verification on WhatsApp (0313-4665483), your 12-page PDF file will be delivered directly to your WhatsApp within 30 minutes.</p>
+          </details>
+          <details>
+            <summary>Which payment methods are accepted?</summary>
+            <p>You can pay via Easypaisa, JazzCash, SadaPay, or Bank Transfer. Message us on WhatsApp and we will share the account details immediately.</p>
+          </details>
+          <details>
+            <summary>Can I print the PDF notes after receiving them?</summary>
+            <p>Yes! Once delivered to your WhatsApp, you can save the PDF on your phone, tablet, or computer and print it anytime for personal study.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p class="policy-note">
+        <strong>Digital Product Return &amp; Refund Policy:</strong> Because this guide is an electronically delivered digital PDF file, it cannot be returned or refunded once delivered or accessed via WhatsApp. Please review the 2 free sample pages above before placing your order.
+      </p>
+      <p>© 2026 Students Paradise School &amp; Academy • Author: M. Wajeeh Ullah Khan • WhatsApp: 0313-4665483</p>
+    </div>
+  </footer>
+
+  <!-- Sticky Floating WhatsApp Button -->
+  <a class="sticky-wa" href="https://wa.me/923134665483?text=Assalam-o-Alaikum!%20I%20want%20to%20order%20the%209th%20(PCTB)%20Mathematics%20Guide%20%E2%80%93%20Exercise%201.3%20(PDF)%20for%20Rs.%2099." target="_blank" rel="noopener" aria-label="Order on WhatsApp">
+    <span>WhatsApp • Rs. 99</span>
+  </a>
+
+  <script>
+    (function () {
+      const steps = [
+        {
+          type: 'image',
+          src: './sample-page-01.png',
+          alt: 'Sample Page 1 - 9th (PCTB) Mathematics Guide Title Cover',
+          label: 'Viewing Sample Page 1 of 2 (Title Cover)'
+        },
+        {
+          type: 'image',
+          src: './sample-page-02.png',
+          alt: 'Sample Page 2 - Exercise 1.3 Question 1 Step-by-Step Solution',
+          label: 'Viewing Sample Page 2 of 2 (Exercise 1.3 – Q.1 Solution)'
+        },
+        {
+          type: 'lock',
+          label: 'End of Free Preview • Pages 3–12 Locked'
+        }
+      ];
+
+      let currentStep = 0;
+      const sampleImg = document.getElementById('sampleImg');
+      const lockScreen = document.getElementById('lockScreen');
+      const readerStatus = document.getElementById('readerStatus');
+      const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const tabBtns = document.querySelectorAll('.tab-btn');
+
+      function renderStep(index) {
+        currentStep = Math.max(0, Math.min(steps.length - 1, index));
+        const item = steps[currentStep];
+        readerStatus.textContent = item.label;
+
+        if (item.type === 'image') {
+          sampleImg.src = item.src;
+          sampleImg.alt = item.alt;
+          sampleImg.style.display = 'block';
+          lockScreen.classList.remove('visible');
+        } else {
+          sampleImg.style.display = 'none';
+          lockScreen.classList.add('visible');
+        }
+
+        prevBtn.disabled = currentStep === 0;
+        nextBtn.disabled = currentStep === steps.length - 1;
+        nextBtn.textContent = currentStep === 1 ? 'Unlock Full PDF →' : 'Next Sample Page →';
+
+        tabBtns.forEach((btn, idx) => {
+          btn.classList.toggle('active', idx === currentStep);
+        });
+      }
+
+      prevBtn.addEventListener('click', () => renderStep(currentStep - 1));
+      nextBtn.addEventListener('click', () => renderStep(currentStep + 1));
+      tabBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          renderStep(Number(btn.dataset.step));
+        });
+      });
+
+      // Scroll reveal animation
+      const reveals = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('in-view');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        reveals.forEach((el) => observer.observe(el));
+      } else {
+        reveals.forEach((el) => el.classList.add('in-view'));
+      }
+    })();
+  </script>
+</body>
+</html>
